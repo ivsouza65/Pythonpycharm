@@ -9,6 +9,7 @@
 .s3 { color: #cf8e6d;}
 .s4 { color: #bcbec4;}
 .s5 { color: #2aacb8;}
+.s6 { color: #6aab73;}
 </style>
 </head>
 <body bgcolor="#1e1f22">
@@ -30,24 +31,24 @@ aritmedica.py</font>
  
 &quot;&quot;&quot;</span>
 <span class="s2">#crie uma função para somar dois números: 5+3</span>
-<span class="s3">def </span><span class="s1">somar</span><span class="s4">():</span>
+<span class="s3">def </span><span class="s1">somar</span><span class="s4">(</span><span class="s1">x</span><span class="s4">, </span><span class="s1">y</span><span class="s4">):</span>
     <span class="s1">print</span><span class="s4">(</span><span class="s5">5</span><span class="s4">+</span><span class="s5">3</span><span class="s4">)</span>
-<span class="s3">def </span><span class="s1">subtrair</span><span class="s4">():</span>
-    <span class="s1">print</span><span class="s4">(</span><span class="s5">5</span><span class="s4">-</span><span class="s5">3</span><span class="s4">)</span>
-<span class="s3">def </span><span class="s1">multiplicar</span><span class="s4">():</span>
-    <span class="s1">print</span><span class="s4">(</span><span class="s5">5</span><span class="s4">*</span><span class="s5">3</span><span class="s4">)</span>
+<span class="s3">def </span><span class="s1">subtrair</span><span class="s4">(</span><span class="s1">x</span><span class="s4">, </span><span class="s1">y</span><span class="s4">):</span>
+    <span class="s1">print</span><span class="s4">(</span><span class="s1">x</span><span class="s4">-</span><span class="s1">y</span><span class="s4">)</span>
+<span class="s3">def </span><span class="s1">multiplicar</span><span class="s4">(</span><span class="s1">x</span><span class="s4">, </span><span class="s1">y</span><span class="s4">):</span>
+    <span class="s1">print</span><span class="s4">(</span><span class="s1">x</span><span class="s4">*</span><span class="s1">y</span><span class="s4">)</span>
 
-<span class="s3">def </span><span class="s1">dividir</span><span class="s4">():</span>
-    <span class="s1">print</span><span class="s4">(</span><span class="s5">5</span><span class="s4">/</span><span class="s5">3</span><span class="s4">)</span>
+<span class="s3">def </span><span class="s1">dividir</span><span class="s4">(</span><span class="s1">x</span><span class="s4">, </span><span class="s1">y</span><span class="s4">):</span>
+    <span class="s1">print</span><span class="s4">(</span><span class="s1">x</span><span class="s4">/</span><span class="s1">y</span><span class="s4">)</span>
 
-<span class="s3">def </span><span class="s1">dividir_inteira</span><span class="s4">():</span>
-    <span class="s1">print</span><span class="s4">(</span><span class="s5">5</span><span class="s4">//</span><span class="s5">2</span><span class="s4">)</span>
+<span class="s3">def </span><span class="s1">dividir_inteira</span><span class="s4">(</span><span class="s1">x</span><span class="s4">, </span><span class="s1">y</span><span class="s4">):</span>
+    <span class="s1">print</span><span class="s4">(</span><span class="s1">x</span><span class="s4">//</span><span class="s1">y</span><span class="s4">)</span>
 
-<span class="s3">def </span><span class="s1">dividir_resto</span><span class="s4">():</span>
-    <span class="s1">print</span><span class="s4">(</span><span class="s5">5</span><span class="s4">%</span><span class="s5">2</span><span class="s4">)</span>
+<span class="s3">def </span><span class="s1">dividir_resto</span><span class="s4">(</span><span class="s1">x</span><span class="s4">, </span><span class="s1">y</span><span class="s4">):</span>
+    <span class="s1">print</span><span class="s4">(</span><span class="s1">x</span><span class="s4">%</span><span class="s1">y</span><span class="s4">)</span>
 
-<span class="s3">def </span><span class="s1">exponenciação</span><span class="s4">():</span>
-    <span class="s1">print</span><span class="s4">(</span><span class="s5">5</span><span class="s4">**</span><span class="s5">3</span><span class="s4">)</span>
+<span class="s3">def </span><span class="s1">exponenciação</span><span class="s4">(</span><span class="s1">x</span><span class="s4">, </span><span class="s1">y</span><span class="s4">):</span>
+    <span class="s1">print</span><span class="s4">(</span><span class="s1">x</span><span class="s4">**</span><span class="s1">y</span><span class="s4">)</span>
 <span class="s2">#exercico</span>
     <span class="s2">#crie uma função multiplicar()</span>
     <span class="s2">#crie uma função dividir()</span>
@@ -55,13 +56,18 @@ aritmedica.py</font>
     <span class="s2">#crie uma função para caucular o resto da divisão</span>
     <span class="s2">#crie uma função para calcular a exponenciação</span>
 <span class="s2">#chamada da função</span>
-<span class="s1">somar</span><span class="s4">()</span>
-<span class="s1">subtrair</span><span class="s4">()</span>
-<span class="s1">multiplicar</span><span class="s4">()</span>
-<span class="s1">dividir</span><span class="s4">()</span>
-<span class="s1">dividir_inteira</span><span class="s4">()</span>
-<span class="s1">dividir_resto</span><span class="s4">()</span>
-<span class="s1">exponenciação</span><span class="s4">()</span>
+<span class="s1">num1 </span><span class="s4">= </span><span class="s1">int</span><span class="s4">(</span><span class="s1">input</span><span class="s4">(</span><span class="s6">&quot;Digite um número: &quot;</span><span class="s4">))</span>
+<span class="s1">num2 </span><span class="s4">= </span><span class="s1">int</span><span class="s4">(</span><span class="s1">input</span><span class="s4">(</span><span class="s6">&quot;Digite outro número: &quot;</span><span class="s4">))</span>
+<span class="s1">somar</span><span class="s4">(</span><span class="s1">num1</span><span class="s4">,</span><span class="s1">num2</span><span class="s4">)</span>
+<span class="s1">subtrair</span><span class="s4">(</span><span class="s1">num1</span><span class="s4">,</span><span class="s1">num2</span><span class="s4">)</span>
+<span class="s1">multiplicar</span><span class="s4">(</span><span class="s1">num1</span><span class="s4">,</span><span class="s1">num2</span><span class="s4">)</span>
+<span class="s1">dividir</span><span class="s4">(</span><span class="s1">num1</span><span class="s4">,</span><span class="s1">num2</span><span class="s4">)</span>
+<span class="s1">dividir_inteira</span><span class="s4">(</span><span class="s1">num1</span><span class="s4">,</span><span class="s1">num2</span><span class="s4">)</span>
+<span class="s1">dividir_resto</span><span class="s4">(</span><span class="s1">num1</span><span class="s4">,</span><span class="s1">num2</span><span class="s4">)</span>
+<span class="s1">exponenciação</span><span class="s4">(</span><span class="s1">num1</span><span class="s4">,</span><span class="s1">num2</span><span class="s4">)</span>
+
+
+<span class="s2">#crie uma</span>
 </pre>
 </body>
 </html>
